@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Villemmings</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="update_checking">Suche nach einer neuen Version …</string>
+    <string name="update_title">Neue Version</string>
+    <string name="update_body">Version %1$s ist da (installiert: %2$s).\n\n%3$s</string>
+    <string name="update_download">Herunterladen</string>
+    <string name="update_later">Später</string>
+    <string name="update_downloading">Lade herunter …</string>
+    <string name="update_none">Du hast schon die neueste Version (%1$s).</string>
+    <string name="update_failed">Update nicht möglich: %1$s</string>
+    <string name="update_install_permission">Damit Villemmings sich selbst aktualisieren kann, erlaube in den Einstellungen „Unbekannte Apps installieren“.</string>
+</resources>

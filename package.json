@@ -1,0 +1,14 @@
+{
+  "name": "villemmings",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lemmings mit Villagern in Klötzchenwelten – für Android",
+  "scripts": {
+    "test": "node tools/test-levels.mjs",
+    "serve": "python3 -m http.server 8080 --directory web"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}

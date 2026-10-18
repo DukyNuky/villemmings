@@ -1,0 +1,4 @@
+# Wer hier steht, kann den Signaturschlüssel entschlüsseln (siehe README.md, Abschnitt Android-App).
+# Stand: die SSH-Schlüssel von github.com/DukyNuky.keys
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGuCHItHbLPFChfIKm5/+hmNzMsbfPj+8MVMG+1kmMZn
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP/Q8xPoWdy8W8zyYUz6PfwoQgmGIXKSbAEFBMWKBz2/
