@@ -255,4 +255,4 @@ export function drawIcon(ctx, name, x, y, size, alpha = 1) {
   ctx.imageSmoothingEnabled = s;
 }
 
-export { ICONS };
+export { ICONS, PAL as ICON_PALETTE };

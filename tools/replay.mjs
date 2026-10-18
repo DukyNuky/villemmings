@@ -27,9 +27,9 @@ export default async function (page, shot) {
   }, { level, speed });
   for (const t of times) {
     await page.waitForFunction((t) => window.__villemmings.play_.game.tick >= t * 25 || window.__villemmings.app.screen !== 'play', t, { timeout: 120000 });
-    await page.evaluate(() => { window.__villemmings.play_.paused = true; });
+    await page.evaluate(() => { window.__villemmings.play_.speedBeforeShot = window.__villemmings.play_.speed; window.__villemmings.play_.speed = 0; });
     await page.waitForTimeout(150);
     await shot(`${level}-${t}`);
-    await page.evaluate(() => { window.__villemmings.play_.paused = false; });
+    await page.evaluate(() => { window.__villemmings.play_.speed = window.__villemmings.play_.speedBeforeShot; });
   }
 }
